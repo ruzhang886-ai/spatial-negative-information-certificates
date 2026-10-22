@@ -1,0 +1,89 @@
+{
+  "label": "continuous_gain_aware_interval_certificate_audit",
+  "seed_range": [
+    14700,
+    14719
+  ],
+  "beamwidths_deg": [
+    65.0,
+    90.0,
+    120.0
+  ],
+  "position_tolerance_m": 2.0,
+  "orientation_tolerance_deg": 0.5,
+  "max_cells": 300000,
+  "summary": {
+    "65.0": {
+      "pair": {
+        "scenarios": 20,
+        "candidate_available": 20,
+        "statuses": {
+          "certified": 0,
+          "counterexample": 20,
+          "unresolved": 0
+        },
+        "mean_cells_visited": 0,
+        "max_cells_visited": 0
+      },
+      "spatial_q2": {
+        "scenarios": 20,
+        "candidate_available": 20,
+        "statuses": {
+          "certified": 0,
+          "counterexample": 20,
+          "unresolved": 0
+        },
+        "mean_cells_visited": 0,
+        "max_cells_visited": 0
+      }
+    },
+    "90.0": {
+      "pair": {
+        "scenarios": 20,
+        "candidate_available": 20,
+        "statuses": {
+          "certified": 20,
+          "counterexample": 0,
+          "unresolved": 0
+        },
+        "mean_cells_visited": 309,
+        "max_cells_visited": 328
+      },
+      "spatial_q2": {
+        "scenarios": 20,
+        "candidate_available": 20,
+        "statuses": {
+          "certified": 20,
+          "counterexample": 0,
+          "unresolved": 0
+        },
+        "mean_cells_visited": 342.4,
+        "max_cells_visited": 368
+      }
+    },
+    "120.0": {
+      "pair": {
+        "scenarios": 20,
+        "candidate_available": 20,
+        "statuses": {
+          "certified": 20,
+          "counterexample": 0,
+          "unresolved": 0
+        },
+        "mean_cells_visited": 165.8,
+        "max_cells_visited": 168
+      },
+      "spatial_q2": {
+        "scenarios": 20,
+        "candidate_available": 20,
+        "statuses": {
+          "certified": 20,
+          "counterexample": 0,
+          "unresolved": 0
+        },
+        "mean_cells_visited": 167.2,
+        "max_cells_visited": 168
+      }
+    }
+  }
+}

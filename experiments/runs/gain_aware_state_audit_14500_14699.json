@@ -1,0 +1,109 @@
+{
+  "label": "sampled_gain_aware_state_audit_of_legacy_selected_candidates",
+  "scope_warning": "Finite position-orientation audit only; zero sampled violations is not a continuous-state proof.",
+  "seed_range": [
+    14500,
+    14699
+  ],
+  "beamwidths_deg": [
+    65.0,
+    90.0,
+    120.0
+  ],
+  "position_subdivisions": 8,
+  "orientation_step_deg": 3.0,
+  "path_loss_exponent": 2.5,
+  "max_attenuation_db": 30.0,
+  "summary": {
+    "65.0": {
+      "pair": {
+        "scenarios": 200,
+        "candidate_available": 200,
+        "candidate_availability_rate": 1.0,
+        "sampled_valid": 0,
+        "sampled_valid_rate_all_scenarios": 0.0,
+        "sampled_valid_rate_available": 0.0,
+        "minimum_multiplicity_distribution": {
+          "0": 200
+        },
+        "mean_feasible_states_checked": 3376.26,
+        "minimum_sampled_margin_m": -92.91339071388579,
+        "median_sampled_margin_m": -89.20638345682302
+      },
+      "spatial_q2": {
+        "scenarios": 200,
+        "candidate_available": 200,
+        "candidate_availability_rate": 1.0,
+        "sampled_valid": 0,
+        "sampled_valid_rate_all_scenarios": 0.0,
+        "sampled_valid_rate_available": 0.0,
+        "minimum_multiplicity_distribution": {
+          "0": 200
+        },
+        "mean_feasible_states_checked": 3750.26,
+        "minimum_sampled_margin_m": -122.91339071388558,
+        "median_sampled_margin_m": -119.20638345682296
+      }
+    },
+    "90.0": {
+      "pair": {
+        "scenarios": 200,
+        "candidate_available": 200,
+        "candidate_availability_rate": 1.0,
+        "sampled_valid": 200,
+        "sampled_valid_rate_all_scenarios": 1.0,
+        "sampled_valid_rate_available": 1.0,
+        "minimum_multiplicity_distribution": {
+          "1": 200
+        },
+        "mean_feasible_states_checked": 4647.085,
+        "minimum_sampled_margin_m": 118.0467524279438,
+        "median_sampled_margin_m": 123.5415719319883
+      },
+      "spatial_q2": {
+        "scenarios": 200,
+        "candidate_available": 200,
+        "candidate_availability_rate": 1.0,
+        "sampled_valid": 200,
+        "sampled_valid_rate_all_scenarios": 1.0,
+        "sampled_valid_rate_available": 1.0,
+        "minimum_multiplicity_distribution": {
+          "3": 200
+        },
+        "mean_feasible_states_checked": 5265.085,
+        "minimum_sampled_margin_m": 88.04675242794374,
+        "median_sampled_margin_m": 93.5415719319884
+      }
+    },
+    "120.0": {
+      "pair": {
+        "scenarios": 200,
+        "candidate_available": 200,
+        "candidate_availability_rate": 1.0,
+        "sampled_valid": 200,
+        "sampled_valid_rate_all_scenarios": 1.0,
+        "sampled_valid_rate_available": 1.0,
+        "minimum_multiplicity_distribution": {
+          "1": 200
+        },
+        "mean_feasible_states_checked": 6131.26,
+        "minimum_sampled_margin_m": 323.9468193366024,
+        "median_sampled_margin_m": 329.07104246485756
+      },
+      "spatial_q2": {
+        "scenarios": 200,
+        "candidate_available": 200,
+        "candidate_availability_rate": 1.0,
+        "sampled_valid": 200,
+        "sampled_valid_rate_all_scenarios": 1.0,
+        "sampled_valid_rate_available": 1.0,
+        "minimum_multiplicity_distribution": {
+          "3": 200
+        },
+        "mean_feasible_states_checked": 6897.26,
+        "minimum_sampled_margin_m": 293.9468193366023,
+        "median_sampled_margin_m": 299.07104246485756
+      }
+    }
+  }
+}

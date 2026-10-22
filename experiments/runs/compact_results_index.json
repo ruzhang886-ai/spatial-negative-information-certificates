@@ -1,0 +1,16 @@
+{
+  "package_version": "1.0.0",
+  "built_on": "2026-10-20",
+  "compact_results": [
+    "holdout_10000_10499.json",
+    "budget_exceedance_12000_12499.json",
+    "correlated_shadowing_13000_13499.json",
+    "nonideal_antenna_14000_14499.json",
+    "gain_aware_state_audit_14500_14699.json",
+    "continuous_gain_certificate_14700_14719.json",
+    "gain_aware_policy_14900_14999.json",
+    "gain_parameter_sensitivity_15100_15109.json",
+    "rmdirectional_external_holdout_analysis.json"
+  ],
+  "note": "Compact JSON files retain metadata and aggregate summaries but omit per-run records. Use raw_results_sha256.tsv to verify the separately archived full outputs."
+}

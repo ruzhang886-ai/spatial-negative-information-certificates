@@ -1,0 +1,303 @@
+{
+  "label": "RMDirectionalBerlin external audit clustered analysis",
+  "result": "C:\\Users\\32971\\Documents\\Codex\\2026-09-11\\w\\outputs\\SCI改写\\experiments\\runs\\rmdirectional_external_audit_200.json",
+  "result_sha256": "310b109a4d19e0a706970a77d968a956bf11128bf47fbeb593b341aed5df1d23",
+  "protocol_manifest": "C:\\Users\\32971\\Documents\\Codex\\2026-09-11\\w\\outputs\\SCI改写\\experiments\\runs\\rmdirectional_external_protocol_v2.json",
+  "protocol_manifest_sha256": "903d9eddd0a8b083f21ba43c81926eb9d8041abcb52eecd638c7a8da4a5294c7",
+  "bootstrap_resamples": 10000,
+  "bootstrap_seed": 20261016,
+  "sample_count": 200,
+  "thresholds": [
+    {
+      "threshold_db": -115.0,
+      "positive_histories": 1560,
+      "pair_evaluable": 1025,
+      "pair_evaluable_rate": 0.657051282051282,
+      "q2_evaluable": 813,
+      "q2_evaluable_rate": 0.5211538461538462,
+      "common_evaluable": 813,
+      "pair_all_negative": 62,
+      "pair_all_negative_rate": 0.07626076260762607,
+      "pair_rate_cluster_bootstrap_95ci": [
+        0.04534313725490196,
+        0.11262964420237313
+      ],
+      "q2_all_negative": 52,
+      "q2_all_negative_rate": 0.06396063960639606,
+      "q2_rate_cluster_bootstrap_95ci": [
+        0.03376582792207792,
+        0.09924734488043051
+      ],
+      "absolute_rate_reduction": 0.012300123001230012,
+      "reduction_cluster_bootstrap_95ci": [
+        0.0049442231683682015,
+        0.021303926378053027
+      ],
+      "pair_negative_q2_positive": 10,
+      "pair_positive_q2_negative": 0,
+      "tiles_with_pair_all_negative": 28,
+      "tiles_with_q2_all_negative": 21,
+      "tiles_with_common_evaluable": 177,
+      "pair_distance_summary": {
+        "event_median_m": 60.900929926445784,
+        "non_event_median_m": 58.59180830116101,
+        "bins": [
+          {
+            "range_m": [
+              30.0,
+              60.0
+            ],
+            "n": 419,
+            "events": 30,
+            "rate": 0.07159904534606205
+          },
+          {
+            "range_m": [
+              60.0,
+              90.0
+            ],
+            "n": 264,
+            "events": 23,
+            "rate": 0.08712121212121213
+          },
+          {
+            "range_m": [
+              90.0,
+              120.0
+            ],
+            "n": 130,
+            "events": 9,
+            "rate": 0.06923076923076923
+          }
+        ]
+      },
+      "q2_distance_summary": {
+        "event_median_m": 59.36665405809029,
+        "non_event_median_m": 58.59180830116101,
+        "bins": [
+          {
+            "range_m": [
+              30.0,
+              60.0
+            ],
+            "n": 419,
+            "events": 26,
+            "rate": 0.06205250596658711
+          },
+          {
+            "range_m": [
+              60.0,
+              90.0
+            ],
+            "n": 264,
+            "events": 20,
+            "rate": 0.07575757575757576
+          },
+          {
+            "range_m": [
+              90.0,
+              120.0
+            ],
+            "n": 130,
+            "events": 6,
+            "rate": 0.046153846153846156
+          }
+        ]
+      }
+    },
+    {
+      "threshold_db": -105.0,
+      "positive_histories": 1552,
+      "pair_evaluable": 1032,
+      "pair_evaluable_rate": 0.6649484536082474,
+      "q2_evaluable": 822,
+      "q2_evaluable_rate": 0.529639175257732,
+      "common_evaluable": 822,
+      "pair_all_negative": 87,
+      "pair_all_negative_rate": 0.10583941605839416,
+      "pair_rate_cluster_bootstrap_95ci": [
+        0.0718422450389839,
+        0.1447220607487015
+      ],
+      "q2_all_negative": 73,
+      "q2_all_negative_rate": 0.08880778588807786,
+      "q2_rate_cluster_bootstrap_95ci": [
+        0.05693853239468174,
+        0.125
+      ],
+      "absolute_rate_reduction": 0.017031630170316295,
+      "reduction_cluster_bootstrap_95ci": [
+        0.008224894531024252,
+        0.02756892230576441
+      ],
+      "pair_negative_q2_positive": 14,
+      "pair_positive_q2_negative": 0,
+      "tiles_with_pair_all_negative": 42,
+      "tiles_with_q2_all_negative": 33,
+      "tiles_with_common_evaluable": 175,
+      "pair_distance_summary": {
+        "event_median_m": 56.639209034025185,
+        "non_event_median_m": 52.80151512977634,
+        "bins": [
+          {
+            "range_m": [
+              30.0,
+              60.0
+            ],
+            "n": 483,
+            "events": 49,
+            "rate": 0.10144927536231885
+          },
+          {
+            "range_m": [
+              60.0,
+              90.0
+            ],
+            "n": 241,
+            "events": 32,
+            "rate": 0.13278008298755187
+          },
+          {
+            "range_m": [
+              90.0,
+              120.0
+            ],
+            "n": 98,
+            "events": 6,
+            "rate": 0.061224489795918366
+          }
+        ]
+      },
+      "q2_distance_summary": {
+        "event_median_m": 52.20153254455275,
+        "non_event_median_m": 53.33854141237835,
+        "bins": [
+          {
+            "range_m": [
+              30.0,
+              60.0
+            ],
+            "n": 483,
+            "events": 43,
+            "rate": 0.08902691511387163
+          },
+          {
+            "range_m": [
+              60.0,
+              90.0
+            ],
+            "n": 241,
+            "events": 25,
+            "rate": 0.1037344398340249
+          },
+          {
+            "range_m": [
+              90.0,
+              120.0
+            ],
+            "n": 98,
+            "events": 5,
+            "rate": 0.05102040816326531
+          }
+        ]
+      }
+    },
+    {
+      "threshold_db": -95.0,
+      "positive_histories": 1544,
+      "pair_evaluable": 1046,
+      "pair_evaluable_rate": 0.677461139896373,
+      "q2_evaluable": 851,
+      "q2_evaluable_rate": 0.5511658031088082,
+      "common_evaluable": 851,
+      "pair_all_negative": 123,
+      "pair_all_negative_rate": 0.1445358401880141,
+      "pair_rate_cluster_bootstrap_95ci": [
+        0.10332457313407081,
+        0.19047619047619047
+      ],
+      "q2_all_negative": 99,
+      "q2_all_negative_rate": 0.11633372502937721,
+      "q2_rate_cluster_bootstrap_95ci": [
+        0.07858748476697457,
+        0.15917530241233327
+      ],
+      "absolute_rate_reduction": 0.028202115158636895,
+      "reduction_cluster_bootstrap_95ci": [
+        0.016373790785374643,
+        0.041861683406881955
+      ],
+      "pair_negative_q2_positive": 24,
+      "pair_positive_q2_negative": 0,
+      "tiles_with_pair_all_negative": 49,
+      "tiles_with_q2_all_negative": 40,
+      "tiles_with_common_evaluable": 171,
+      "pair_distance_summary": {
+        "event_median_m": 51.19570294468082,
+        "non_event_median_m": 53.45091205957107,
+        "bins": [
+          {
+            "range_m": [
+              30.0,
+              60.0
+            ],
+            "n": 508,
+            "events": 80,
+            "rate": 0.15748031496062992
+          },
+          {
+            "range_m": [
+              60.0,
+              90.0
+            ],
+            "n": 211,
+            "events": 38,
+            "rate": 0.18009478672985782
+          },
+          {
+            "range_m": [
+              90.0,
+              120.0
+            ],
+            "n": 132,
+            "events": 5,
+            "rate": 0.03787878787878788
+          }
+        ]
+      },
+      "q2_distance_summary": {
+        "event_median_m": 51.088159097779204,
+        "non_event_median_m": 53.45091205957107,
+        "bins": [
+          {
+            "range_m": [
+              30.0,
+              60.0
+            ],
+            "n": 508,
+            "events": 66,
+            "rate": 0.12992125984251968
+          },
+          {
+            "range_m": [
+              60.0,
+              90.0
+            ],
+            "n": 211,
+            "events": 29,
+            "rate": 0.13744075829383887
+          },
+          {
+            "range_m": [
+              90.0,
+              120.0
+            ],
+            "n": 132,
+            "events": 4,
+            "rate": 0.030303030303030304
+          }
+        ]
+      }
+    }
+  ]
+}

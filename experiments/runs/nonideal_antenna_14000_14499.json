@@ -1,0 +1,224 @@
+{
+  "label": "nonideal_antenna_theorem_audit",
+  "seed_range": [
+    14000,
+    14499
+  ],
+  "beamwidths_deg": [
+    65.0,
+    90.0,
+    120.0
+  ],
+  "path_loss_exponent": 2.5,
+  "max_attenuation_db": 30.0,
+  "antenna_pattern": "min(12*(off_axis/hpbw)^2, max_attenuation_db)",
+  "variants": [
+    "no_negative_update",
+    "full_pair_naive",
+    "spatial_q2_naive",
+    "full_pair_conservative",
+    "spatial_q2_conservative"
+  ],
+  "beamwidth_metadata": {
+    "65.0": {
+      "edge_guaranteed_radius_m": 120.16093903691466,
+      "conservative_certificate_radius_m": 119.16093903691466
+    },
+    "90.0": {
+      "edge_guaranteed_radius_m": 331.1311214825911,
+      "conservative_certificate_radius_m": 330.1311214825911
+    },
+    "120.0": {
+      "edge_guaranteed_radius_m": 537.0317963702527,
+      "conservative_certificate_radius_m": 536.0317963702527
+    }
+  },
+  "summary": {
+    "65.0": {
+      "no_negative_update": {
+        "runs": 500,
+        "completed": 500,
+        "completion_rate": 1.0,
+        "unsafe_exclusions": 0,
+        "unsafe_rate": 0,
+        "mean_time_completed_s": 839.0145223349951,
+        "mean_observed_time_s": 839.0145223349951,
+        "mean_measures": 3.224,
+        "mean_pair_cuts": 0,
+        "fallback_rate": 0.47
+      },
+      "full_pair_naive": {
+        "runs": 500,
+        "completed": 499,
+        "completion_rate": 0.998,
+        "unsafe_exclusions": 1,
+        "unsafe_rate": 0.002,
+        "mean_time_completed_s": 333.62561559276344,
+        "mean_observed_time_s": 333.4488478555031,
+        "mean_measures": 3.06,
+        "mean_pair_cuts": 0.62,
+        "fallback_rate": 0
+      },
+      "spatial_q2_naive": {
+        "runs": 500,
+        "completed": 500,
+        "completion_rate": 1.0,
+        "unsafe_exclusions": 0,
+        "unsafe_rate": 0,
+        "mean_time_completed_s": 360.25724764832046,
+        "mean_observed_time_s": 360.25724764832046,
+        "mean_measures": 5.842,
+        "mean_pair_cuts": 0.546,
+        "fallback_rate": 0
+      },
+      "full_pair_conservative": {
+        "runs": 500,
+        "completed": 500,
+        "completion_rate": 1.0,
+        "unsafe_exclusions": 0,
+        "unsafe_rate": 0,
+        "mean_time_completed_s": 480.53343027252504,
+        "mean_observed_time_s": 480.53343027252504,
+        "mean_measures": 0,
+        "mean_pair_cuts": 0,
+        "fallback_rate": 1
+      },
+      "spatial_q2_conservative": {
+        "runs": 500,
+        "completed": 500,
+        "completion_rate": 1.0,
+        "unsafe_exclusions": 0,
+        "unsafe_rate": 0,
+        "mean_time_completed_s": 480.53343027252504,
+        "mean_observed_time_s": 480.53343027252504,
+        "mean_measures": 0,
+        "mean_pair_cuts": 0,
+        "fallback_rate": 1
+      }
+    },
+    "90.0": {
+      "no_negative_update": {
+        "runs": 500,
+        "completed": 500,
+        "completion_rate": 1.0,
+        "unsafe_exclusions": 0,
+        "unsafe_rate": 0,
+        "mean_time_completed_s": 677.0197970783661,
+        "mean_observed_time_s": 677.0197970783661,
+        "mean_measures": 2.96,
+        "mean_pair_cuts": 0,
+        "fallback_rate": 0.322
+      },
+      "full_pair_naive": {
+        "runs": 500,
+        "completed": 500,
+        "completion_rate": 1.0,
+        "unsafe_exclusions": 0,
+        "unsafe_rate": 0,
+        "mean_time_completed_s": 310.103611413874,
+        "mean_observed_time_s": 310.103611413874,
+        "mean_measures": 2.764,
+        "mean_pair_cuts": 0.448,
+        "fallback_rate": 0
+      },
+      "spatial_q2_naive": {
+        "runs": 500,
+        "completed": 500,
+        "completion_rate": 1.0,
+        "unsafe_exclusions": 0,
+        "unsafe_rate": 0,
+        "mean_time_completed_s": 325.5775296691219,
+        "mean_observed_time_s": 325.5775296691219,
+        "mean_measures": 4.776,
+        "mean_pair_cuts": 0.358,
+        "fallback_rate": 0
+      },
+      "full_pair_conservative": {
+        "runs": 500,
+        "completed": 500,
+        "completion_rate": 1.0,
+        "unsafe_exclusions": 0,
+        "unsafe_rate": 0,
+        "mean_time_completed_s": 482.84720331821836,
+        "mean_observed_time_s": 482.84720331821836,
+        "mean_measures": 0,
+        "mean_pair_cuts": 0,
+        "fallback_rate": 1
+      },
+      "spatial_q2_conservative": {
+        "runs": 500,
+        "completed": 500,
+        "completion_rate": 1.0,
+        "unsafe_exclusions": 0,
+        "unsafe_rate": 0,
+        "mean_time_completed_s": 482.84720331821836,
+        "mean_observed_time_s": 482.84720331821836,
+        "mean_measures": 0,
+        "mean_pair_cuts": 0,
+        "fallback_rate": 1
+      }
+    },
+    "120.0": {
+      "no_negative_update": {
+        "runs": 500,
+        "completed": 500,
+        "completion_rate": 1.0,
+        "unsafe_exclusions": 0,
+        "unsafe_rate": 0,
+        "mean_time_completed_s": 586.3065574047237,
+        "mean_observed_time_s": 586.3065574047237,
+        "mean_measures": 2.9,
+        "mean_pair_cuts": 0,
+        "fallback_rate": 0.244
+      },
+      "full_pair_naive": {
+        "runs": 500,
+        "completed": 500,
+        "completion_rate": 1.0,
+        "unsafe_exclusions": 0,
+        "unsafe_rate": 0,
+        "mean_time_completed_s": 298.7803741136205,
+        "mean_observed_time_s": 298.7803741136205,
+        "mean_measures": 2.616,
+        "mean_pair_cuts": 0.348,
+        "fallback_rate": 0
+      },
+      "spatial_q2_naive": {
+        "runs": 500,
+        "completed": 500,
+        "completion_rate": 1.0,
+        "unsafe_exclusions": 0,
+        "unsafe_rate": 0,
+        "mean_time_completed_s": 308.93178485780527,
+        "mean_observed_time_s": 308.93178485780527,
+        "mean_measures": 4.25,
+        "mean_pair_cuts": 0.262,
+        "fallback_rate": 0
+      },
+      "full_pair_conservative": {
+        "runs": 500,
+        "completed": 500,
+        "completion_rate": 1.0,
+        "unsafe_exclusions": 0,
+        "unsafe_rate": 0,
+        "mean_time_completed_s": 497.99153416826306,
+        "mean_observed_time_s": 497.99153416826306,
+        "mean_measures": 0,
+        "mean_pair_cuts": 0,
+        "fallback_rate": 1
+      },
+      "spatial_q2_conservative": {
+        "runs": 500,
+        "completed": 500,
+        "completion_rate": 1.0,
+        "unsafe_exclusions": 0,
+        "unsafe_rate": 0,
+        "mean_time_completed_s": 497.99153416826306,
+        "mean_observed_time_s": 497.99153416826306,
+        "mean_measures": 0,
+        "mean_pair_cuts": 0,
+        "fallback_rate": 1
+      }
+    }
+  }
+}

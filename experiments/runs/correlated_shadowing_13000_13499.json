@@ -1,0 +1,414 @@
+{
+  "label": "continuous_correlated_shadowing_external_validity",
+  "seed_range": [
+    13000,
+    13499
+  ],
+  "miss_probability": 0.1,
+  "miss_mode": "correlated_shadowing",
+  "target_correlation": "exp(-distance/correlation_length)",
+  "shadowing_features": 512,
+  "scales_m": [
+    10.0,
+    25.0,
+    50.0,
+    100.0
+  ],
+  "methods": [
+    "no_negative_information",
+    "full_pair",
+    "temporal_repeat_q2",
+    "spatial_multicover_q1",
+    "spatial_multicover_q2"
+  ],
+  "summary": {
+    "10.0": {
+      "no_negative_information": {
+        "runs": 500,
+        "completed": 500,
+        "completion_rate": 1.0,
+        "unsafe_exclusions": 0,
+        "unsafe_rate": 0.0,
+        "unsafe_rate_wilson95": [
+          4.336808689942018e-19,
+          0.007624340461552241
+        ],
+        "runs_with_budget_exceedance": 0,
+        "budget_exceedance_rate": 0.0,
+        "unsafe_without_recorded_exceedance": 0,
+        "mean_time_completed_s": 541.4959551847127,
+        "median_time_completed_s": 345.0096834759548,
+        "mean_observed_time_s": 541.4959551847127,
+        "mean_measures": 3.552,
+        "fallback_rate": 0.192
+      },
+      "full_pair": {
+        "runs": 500,
+        "completed": 466,
+        "completion_rate": 0.932,
+        "unsafe_exclusions": 34,
+        "unsafe_rate": 0.068,
+        "unsafe_rate_wilson95": [
+          0.04906650742490687,
+          0.0935209227338743
+        ],
+        "runs_with_budget_exceedance": 0,
+        "budget_exceedance_rate": 0.0,
+        "unsafe_without_recorded_exceedance": 34,
+        "mean_time_completed_s": 302.51903027803394,
+        "median_time_completed_s": 292.42365308950684,
+        "mean_observed_time_s": 301.8596739475644,
+        "mean_measures": 2.72,
+        "fallback_rate": 0
+      },
+      "temporal_repeat_q2": {
+        "runs": 500,
+        "completed": 466,
+        "completion_rate": 0.932,
+        "unsafe_exclusions": 34,
+        "unsafe_rate": 0.068,
+        "unsafe_rate_wilson95": [
+          0.04906650742490687,
+          0.0935209227338743
+        ],
+        "runs_with_budget_exceedance": 0,
+        "budget_exceedance_rate": 0.0,
+        "unsafe_without_recorded_exceedance": 34,
+        "mean_time_completed_s": 312.733622552712,
+        "median_time_completed_s": 301.5197541529147,
+        "mean_observed_time_s": 313.0796739475644,
+        "mean_measures": 4.964,
+        "fallback_rate": 0
+      },
+      "spatial_multicover_q1": {
+        "runs": 500,
+        "completed": 491,
+        "completion_rate": 0.982,
+        "unsafe_exclusions": 9,
+        "unsafe_rate": 0.018,
+        "unsafe_rate_wilson95": [
+          0.009498193296197078,
+          0.033851670908739286
+        ],
+        "runs_with_budget_exceedance": 13,
+        "budget_exceedance_rate": 0.026,
+        "unsafe_without_recorded_exceedance": 0,
+        "mean_time_completed_s": 253.4755600937825,
+        "median_time_completed_s": 247.86399923787357,
+        "mean_observed_time_s": 252.9918169032047,
+        "mean_measures": 3.328,
+        "fallback_rate": 0
+      },
+      "spatial_multicover_q2": {
+        "runs": 500,
+        "completed": 498,
+        "completion_rate": 0.996,
+        "unsafe_exclusions": 2,
+        "unsafe_rate": 0.004,
+        "unsafe_rate_wilson95": [
+          0.0010976305226827934,
+          0.014465715215177033
+        ],
+        "runs_with_budget_exceedance": 4,
+        "budget_exceedance_rate": 0.008,
+        "unsafe_without_recorded_exceedance": 0,
+        "mean_time_completed_s": 310.2990972696031,
+        "median_time_completed_s": 296.855756022155,
+        "mean_observed_time_s": 310.22153301116435,
+        "mean_measures": 4.628,
+        "fallback_rate": 0
+      }
+    },
+    "25.0": {
+      "no_negative_information": {
+        "runs": 500,
+        "completed": 500,
+        "completion_rate": 1.0,
+        "unsafe_exclusions": 0,
+        "unsafe_rate": 0.0,
+        "unsafe_rate_wilson95": [
+          4.336808689942018e-19,
+          0.007624340461552241
+        ],
+        "runs_with_budget_exceedance": 0,
+        "budget_exceedance_rate": 0.0,
+        "unsafe_without_recorded_exceedance": 0,
+        "mean_time_completed_s": 547.5267340081492,
+        "median_time_completed_s": 348.61156226828837,
+        "mean_observed_time_s": 547.5267340081492,
+        "mean_measures": 3.664,
+        "fallback_rate": 0.192
+      },
+      "full_pair": {
+        "runs": 500,
+        "completed": 461,
+        "completion_rate": 0.922,
+        "unsafe_exclusions": 39,
+        "unsafe_rate": 0.078,
+        "unsafe_rate_wilson95": [
+          0.05758139347616159,
+          0.10485354987338852
+        ],
+        "runs_with_budget_exceedance": 0,
+        "budget_exceedance_rate": 0.0,
+        "unsafe_without_recorded_exceedance": 39,
+        "mean_time_completed_s": 304.46949151933495,
+        "median_time_completed_s": 291.4266317447675,
+        "mean_observed_time_s": 303.7691681246046,
+        "mean_measures": 2.742,
+        "fallback_rate": 0
+      },
+      "temporal_repeat_q2": {
+        "runs": 500,
+        "completed": 461,
+        "completion_rate": 0.922,
+        "unsafe_exclusions": 39,
+        "unsafe_rate": 0.078,
+        "unsafe_rate_wilson95": [
+          0.05758139347616159,
+          0.10485354987338852
+        ],
+        "runs_with_budget_exceedance": 0,
+        "budget_exceedance_rate": 0.0,
+        "unsafe_without_recorded_exceedance": 39,
+        "mean_time_completed_s": 314.72979520697055,
+        "median_time_completed_s": 300.89699680454896,
+        "mean_observed_time_s": 315.2691681246046,
+        "mean_measures": 5.042,
+        "fallback_rate": 0
+      },
+      "spatial_multicover_q1": {
+        "runs": 500,
+        "completed": 491,
+        "completion_rate": 0.982,
+        "unsafe_exclusions": 9,
+        "unsafe_rate": 0.018,
+        "unsafe_rate_wilson95": [
+          0.009498193296197078,
+          0.033851670908739286
+        ],
+        "runs_with_budget_exceedance": 15,
+        "budget_exceedance_rate": 0.03,
+        "unsafe_without_recorded_exceedance": 0,
+        "mean_time_completed_s": 309.6807689901141,
+        "median_time_completed_s": 295.257061321552,
+        "mean_observed_time_s": 309.8259370269245,
+        "mean_measures": 3.742,
+        "fallback_rate": 0
+      },
+      "spatial_multicover_q2": {
+        "runs": 500,
+        "completed": 496,
+        "completion_rate": 0.992,
+        "unsafe_exclusions": 4,
+        "unsafe_rate": 0.008,
+        "unsafe_rate_wilson95": [
+          0.00311531518006224,
+          0.020387035834105168
+        ],
+        "runs_with_budget_exceedance": 6,
+        "budget_exceedance_rate": 0.012,
+        "unsafe_without_recorded_exceedance": 0,
+        "mean_time_completed_s": 316.72891920014854,
+        "median_time_completed_s": 307.2941679277175,
+        "mean_observed_time_s": 316.4768700765607,
+        "mean_measures": 4.412,
+        "fallback_rate": 0
+      }
+    },
+    "50.0": {
+      "no_negative_information": {
+        "runs": 500,
+        "completed": 500,
+        "completion_rate": 1.0,
+        "unsafe_exclusions": 0,
+        "unsafe_rate": 0.0,
+        "unsafe_rate_wilson95": [
+          4.336808689942018e-19,
+          0.007624340461552241
+        ],
+        "runs_with_budget_exceedance": 0,
+        "budget_exceedance_rate": 0.0,
+        "unsafe_without_recorded_exceedance": 0,
+        "mean_time_completed_s": 543.4890224387518,
+        "median_time_completed_s": 345.4695226872187,
+        "mean_observed_time_s": 543.4890224387518,
+        "mean_measures": 3.708,
+        "fallback_rate": 0.196
+      },
+      "full_pair": {
+        "runs": 500,
+        "completed": 461,
+        "completion_rate": 0.922,
+        "unsafe_exclusions": 39,
+        "unsafe_rate": 0.078,
+        "unsafe_rate_wilson95": [
+          0.05758139347616159,
+          0.10485354987338852
+        ],
+        "runs_with_budget_exceedance": 0,
+        "budget_exceedance_rate": 0.0,
+        "unsafe_without_recorded_exceedance": 39,
+        "mean_time_completed_s": 305.97569152543184,
+        "median_time_completed_s": 292.9226810024825,
+        "mean_observed_time_s": 304.09127225415267,
+        "mean_measures": 2.766,
+        "fallback_rate": 0
+      },
+      "temporal_repeat_q2": {
+        "runs": 500,
+        "completed": 461,
+        "completion_rate": 0.922,
+        "unsafe_exclusions": 39,
+        "unsafe_rate": 0.078,
+        "unsafe_rate_wilson95": [
+          0.05758139347616159,
+          0.10485354987338852
+        ],
+        "runs_with_budget_exceedance": 0,
+        "budget_exceedance_rate": 0.0,
+        "unsafe_without_recorded_exceedance": 39,
+        "mean_time_completed_s": 316.64814271849036,
+        "median_time_completed_s": 302.52935861137854,
+        "mean_observed_time_s": 315.81127225415264,
+        "mean_measures": 5.11,
+        "fallback_rate": 0
+      },
+      "spatial_multicover_q1": {
+        "runs": 500,
+        "completed": 495,
+        "completion_rate": 0.99,
+        "unsafe_exclusions": 5,
+        "unsafe_rate": 0.01,
+        "unsafe_rate_wilson95": [
+          0.004278753896590496,
+          0.023193099755730702
+        ],
+        "runs_with_budget_exceedance": 10,
+        "budget_exceedance_rate": 0.02,
+        "unsafe_without_recorded_exceedance": 0,
+        "mean_time_completed_s": 314.5730622963539,
+        "median_time_completed_s": 302.4501532333071,
+        "mean_observed_time_s": 314.90274186640545,
+        "mean_measures": 3.57,
+        "fallback_rate": 0
+      },
+      "spatial_multicover_q2": {
+        "runs": 500,
+        "completed": 500,
+        "completion_rate": 1.0,
+        "unsafe_exclusions": 0,
+        "unsafe_rate": 0.0,
+        "unsafe_rate_wilson95": [
+          4.336808689942018e-19,
+          0.007624340461552241
+        ],
+        "runs_with_budget_exceedance": 0,
+        "budget_exceedance_rate": 0.0,
+        "unsafe_without_recorded_exceedance": 0,
+        "mean_time_completed_s": 331.30059534070193,
+        "median_time_completed_s": 318.63284736062326,
+        "mean_observed_time_s": 331.30059534070193,
+        "mean_measures": 4.24,
+        "fallback_rate": 0
+      }
+    },
+    "100.0": {
+      "no_negative_information": {
+        "runs": 500,
+        "completed": 500,
+        "completion_rate": 1.0,
+        "unsafe_exclusions": 0,
+        "unsafe_rate": 0.0,
+        "unsafe_rate_wilson95": [
+          4.336808689942018e-19,
+          0.007624340461552241
+        ],
+        "runs_with_budget_exceedance": 0,
+        "budget_exceedance_rate": 0.0,
+        "unsafe_without_recorded_exceedance": 0,
+        "mean_time_completed_s": 549.3609742176218,
+        "median_time_completed_s": 345.09264766249566,
+        "mean_observed_time_s": 549.3609742176218,
+        "mean_measures": 3.768,
+        "fallback_rate": 0.21
+      },
+      "full_pair": {
+        "runs": 500,
+        "completed": 459,
+        "completion_rate": 0.918,
+        "unsafe_exclusions": 41,
+        "unsafe_rate": 0.082,
+        "unsafe_rate_wilson95": [
+          0.06101908946846894,
+          0.10935485915738875
+        ],
+        "runs_with_budget_exceedance": 0,
+        "budget_exceedance_rate": 0.0,
+        "unsafe_without_recorded_exceedance": 41,
+        "mean_time_completed_s": 303.20653792854773,
+        "median_time_completed_s": 292.33365312714005,
+        "mean_observed_time_s": 301.63959850982747,
+        "mean_measures": 2.716,
+        "fallback_rate": 0
+      },
+      "temporal_repeat_q2": {
+        "runs": 500,
+        "completed": 459,
+        "completion_rate": 0.918,
+        "unsafe_exclusions": 41,
+        "unsafe_rate": 0.082,
+        "unsafe_rate_wilson95": [
+          0.06101908946846894,
+          0.10935485915738875
+        ],
+        "runs_with_budget_exceedance": 0,
+        "budget_exceedance_rate": 0.0,
+        "unsafe_without_recorded_exceedance": 41,
+        "mean_time_completed_s": 313.2718974056719,
+        "median_time_completed_s": 301.23129624705,
+        "mean_observed_time_s": 312.89959850982746,
+        "mean_measures": 4.968,
+        "fallback_rate": 0
+      },
+      "spatial_multicover_q1": {
+        "runs": 500,
+        "completed": 493,
+        "completion_rate": 0.986,
+        "unsafe_exclusions": 7,
+        "unsafe_rate": 0.014,
+        "unsafe_rate_wilson95": [
+          0.00679778979084349,
+          0.02861306913778529
+        ],
+        "runs_with_budget_exceedance": 12,
+        "budget_exceedance_rate": 0.024,
+        "unsafe_without_recorded_exceedance": 0,
+        "mean_time_completed_s": 331.8407446071677,
+        "median_time_completed_s": 320.85394302031233,
+        "mean_observed_time_s": 332.61507272573755,
+        "mean_measures": 3.576,
+        "fallback_rate": 0
+      },
+      "spatial_multicover_q2": {
+        "runs": 500,
+        "completed": 498,
+        "completion_rate": 0.996,
+        "unsafe_exclusions": 2,
+        "unsafe_rate": 0.004,
+        "unsafe_rate_wilson95": [
+          0.0010976305226827934,
+          0.014465715215177033
+        ],
+        "runs_with_budget_exceedance": 6,
+        "budget_exceedance_rate": 0.012,
+        "unsafe_without_recorded_exceedance": 0,
+        "mean_time_completed_s": 368.2772016489338,
+        "median_time_completed_s": 352.8951559922016,
+        "mean_observed_time_s": 368.5645612372579,
+        "mean_measures": 4.358,
+        "fallback_rate": 0
+      }
+    }
+  }
+}

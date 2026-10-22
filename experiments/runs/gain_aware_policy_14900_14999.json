@@ -1,0 +1,234 @@
+{
+  "label": "gain_aware_continuous_certificate_policy_audit",
+  "seed_range": [
+    14900,
+    14999
+  ],
+  "beamwidths_deg": [
+    65.0,
+    90.0,
+    120.0
+  ],
+  "variants": [
+    "no_negative_update",
+    "full_pair_naive",
+    "full_pair_gain_aware",
+    "spatial_q2_naive",
+    "spatial_q2_gain_aware"
+  ],
+  "summary": {
+    "65.0": {
+      "no_negative_update": {
+        "runs": 100,
+        "completed": 100,
+        "completion_rate": 1.0,
+        "unsafe_exclusions": 0,
+        "unsafe_rate": 0,
+        "mean_observed_time_s": 806.2203931376795,
+        "mean_completed_time_s": 806.2203931376795,
+        "mean_measures": 3.42,
+        "mean_pair_cuts": 0,
+        "fallback_rate": 0.45,
+        "gain_certificate_status_counts": {}
+      },
+      "full_pair_naive": {
+        "runs": 100,
+        "completed": 100,
+        "completion_rate": 1.0,
+        "unsafe_exclusions": 0,
+        "unsafe_rate": 0,
+        "mean_observed_time_s": 330.1219124140683,
+        "mean_completed_time_s": 330.1219124140683,
+        "mean_measures": 3,
+        "mean_pair_cuts": 0.6,
+        "fallback_rate": 0,
+        "gain_certificate_status_counts": {}
+      },
+      "full_pair_gain_aware": {
+        "runs": 100,
+        "completed": 100,
+        "completion_rate": 1.0,
+        "unsafe_exclusions": 0,
+        "unsafe_rate": 0,
+        "mean_observed_time_s": 501.99879104509944,
+        "mean_completed_time_s": 501.99879104509944,
+        "mean_measures": 0,
+        "mean_pair_cuts": 0,
+        "fallback_rate": 1,
+        "gain_certificate_status_counts": {
+          "counterexample": 100
+        }
+      },
+      "spatial_q2_naive": {
+        "runs": 100,
+        "completed": 100,
+        "completion_rate": 1.0,
+        "unsafe_exclusions": 0,
+        "unsafe_rate": 0,
+        "mean_observed_time_s": 361.2030785331151,
+        "mean_completed_time_s": 361.2030785331151,
+        "mean_measures": 5.77,
+        "mean_pair_cuts": 0.52,
+        "fallback_rate": 0,
+        "gain_certificate_status_counts": {}
+      },
+      "spatial_q2_gain_aware": {
+        "runs": 100,
+        "completed": 100,
+        "completion_rate": 1.0,
+        "unsafe_exclusions": 0,
+        "unsafe_rate": 0,
+        "mean_observed_time_s": 501.99879104509944,
+        "mean_completed_time_s": 501.99879104509944,
+        "mean_measures": 0,
+        "mean_pair_cuts": 0,
+        "fallback_rate": 1,
+        "gain_certificate_status_counts": {
+          "counterexample": 100
+        }
+      }
+    },
+    "90.0": {
+      "no_negative_update": {
+        "runs": 100,
+        "completed": 100,
+        "completion_rate": 1.0,
+        "unsafe_exclusions": 0,
+        "unsafe_rate": 0,
+        "mean_observed_time_s": 629.7195246811276,
+        "mean_completed_time_s": 629.7195246811276,
+        "mean_measures": 3.28,
+        "mean_pair_cuts": 0,
+        "fallback_rate": 0.29,
+        "gain_certificate_status_counts": {}
+      },
+      "full_pair_naive": {
+        "runs": 100,
+        "completed": 100,
+        "completion_rate": 1.0,
+        "unsafe_exclusions": 0,
+        "unsafe_rate": 0,
+        "mean_observed_time_s": 302.0583602381911,
+        "mean_completed_time_s": 302.0583602381911,
+        "mean_measures": 2.64,
+        "mean_pair_cuts": 0.39,
+        "fallback_rate": 0,
+        "gain_certificate_status_counts": {}
+      },
+      "full_pair_gain_aware": {
+        "runs": 100,
+        "completed": 100,
+        "completion_rate": 1.0,
+        "unsafe_exclusions": 0,
+        "unsafe_rate": 0,
+        "mean_observed_time_s": 302.0583602381911,
+        "mean_completed_time_s": 302.0583602381911,
+        "mean_measures": 2.64,
+        "mean_pair_cuts": 0.39,
+        "fallback_rate": 0,
+        "gain_certificate_status_counts": {
+          "certified": 198
+        }
+      },
+      "spatial_q2_naive": {
+        "runs": 100,
+        "completed": 100,
+        "completion_rate": 1.0,
+        "unsafe_exclusions": 0,
+        "unsafe_rate": 0,
+        "mean_observed_time_s": 314.367219334838,
+        "mean_completed_time_s": 314.367219334838,
+        "mean_measures": 4.32,
+        "mean_pair_cuts": 0.3,
+        "fallback_rate": 0,
+        "gain_certificate_status_counts": {}
+      },
+      "spatial_q2_gain_aware": {
+        "runs": 100,
+        "completed": 100,
+        "completion_rate": 1.0,
+        "unsafe_exclusions": 0,
+        "unsafe_rate": 0,
+        "mean_observed_time_s": 314.367219334838,
+        "mean_completed_time_s": 314.367219334838,
+        "mean_measures": 4.32,
+        "mean_pair_cuts": 0.3,
+        "fallback_rate": 0,
+        "gain_certificate_status_counts": {
+          "certified": 194
+        }
+      }
+    },
+    "120.0": {
+      "no_negative_update": {
+        "runs": 100,
+        "completed": 100,
+        "completion_rate": 1.0,
+        "unsafe_exclusions": 0,
+        "unsafe_rate": 0,
+        "mean_observed_time_s": 588.1272741046805,
+        "mean_completed_time_s": 588.1272741046805,
+        "mean_measures": 3.26,
+        "mean_pair_cuts": 0,
+        "fallback_rate": 0.25,
+        "gain_certificate_status_counts": {}
+      },
+      "full_pair_naive": {
+        "runs": 100,
+        "completed": 100,
+        "completion_rate": 1.0,
+        "unsafe_exclusions": 0,
+        "unsafe_rate": 0,
+        "mean_observed_time_s": 294.92945276535625,
+        "mean_completed_time_s": 294.92945276535625,
+        "mean_measures": 2.53,
+        "mean_pair_cuts": 0.34,
+        "fallback_rate": 0,
+        "gain_certificate_status_counts": {}
+      },
+      "full_pair_gain_aware": {
+        "runs": 100,
+        "completed": 100,
+        "completion_rate": 1.0,
+        "unsafe_exclusions": 0,
+        "unsafe_rate": 0,
+        "mean_observed_time_s": 294.92945276535625,
+        "mean_completed_time_s": 294.92945276535625,
+        "mean_measures": 2.53,
+        "mean_pair_cuts": 0.34,
+        "fallback_rate": 0,
+        "gain_certificate_status_counts": {
+          "certified": 191
+        }
+      },
+      "spatial_q2_naive": {
+        "runs": 100,
+        "completed": 100,
+        "completion_rate": 1.0,
+        "unsafe_exclusions": 0,
+        "unsafe_rate": 0,
+        "mean_observed_time_s": 304.09214076317323,
+        "mean_completed_time_s": 304.09214076317323,
+        "mean_measures": 3.91,
+        "mean_pair_cuts": 0.24,
+        "fallback_rate": 0,
+        "gain_certificate_status_counts": {}
+      },
+      "spatial_q2_gain_aware": {
+        "runs": 100,
+        "completed": 100,
+        "completion_rate": 1.0,
+        "unsafe_exclusions": 0,
+        "unsafe_rate": 0,
+        "mean_observed_time_s": 304.09214076317323,
+        "mean_completed_time_s": 304.09214076317323,
+        "mean_measures": 3.91,
+        "mean_pair_cuts": 0.24,
+        "fallback_rate": 0,
+        "gain_certificate_status_counts": {
+          "certified": 189
+        }
+      }
+    }
+  }
+}

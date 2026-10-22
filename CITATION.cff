@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software or data package, please cite the archived release and the associated article when available."
+title: "Reproducibility package for spatially redundant negative-information certificates"
+type: software
+version: 1.0.0
+license: MIT
+abstract: "Code, protocols, aggregate results, and figures supporting a study of spatially redundant negative-information certificates for directional radio-emitter localization under bounded persistent missed detections."
+authors:
+  - family-names: Zhang
+    given-names: Ru
+    orcid: "https://orcid.org/0009-0001-7126-7808"
+    affiliation: "Anhui University of Technology"
+  - family-names: Fu
+    given-names: Dekuan
+    orcid: "https://orcid.org/0009-0004-5904-2034"
+    affiliation: "Anhui University of Technology"
+keywords:
+  - directional radio emitter
+  - bearing-only localization
+  - active sensing
+  - negative information
+  - set-membership estimation
+  - spatial redundancy

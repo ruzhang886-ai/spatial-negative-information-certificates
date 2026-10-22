@@ -13,9 +13,9 @@ shadowing, nonideal antenna gain, and an external Berlin ray-tracing holdout.
 ## Contents
 
 - `experiments/src`: geometry, certificate, policy, simulator, and external-data adapters.
-- `experiments/scripts`: frozen experiment and plotting entry points.
+- `experiments/scripts`: reproducible experiment and figure-generation scripts.
 - `experiments/tests`: deterministic certificate tests.
-- `experiments/runs`: compact aggregate results, frozen protocols, and hash manifests.
+- `experiments/runs`: compact aggregate results, documented experiment configurations, and hash manifests.
 - `figures`: manuscript figures in PNG and PDF.
 - `CITATION.cff`: author and citation metadata.
 - `.zenodo.json`: metadata used when Zenodo archives a GitHub release.
@@ -25,12 +25,12 @@ Compact result files omit the per-run arrays but preserve the metadata and
 aggregate summaries used by Tables 1--8. The full raw outputs are intended for
 the separate release asset `Full_Raw_Results_v1.0.0.zip`;
 `experiments/runs/raw_results_sha256.tsv` records the expected size and SHA-256
-of every frozen local result file. `SHA256SUMS.txt` verifies the files stored in
+of every recorded local result file. `SHA256SUMS.txt` verifies the files stored in
 this repository snapshot.
 
 ## Environment
 
-The frozen local environment was Python 3.12.7 with NumPy 2.4.6, Matplotlib
+The recorded software environment was Python 3.12.7 with NumPy 2.4.6, Matplotlib
 3.10.9, and Pillow 12.2.0. Create an isolated environment and install:
 
 ```bash
@@ -51,7 +51,7 @@ claims, and all entries of Tables 1--8 against the frozen result files.
 
 ## Re-running experiments
 
-Experiment scripts are in `experiments/scripts`. The frozen holdout entry point
+Experiment scripts are in `experiments/scripts`. The holdout experiment entry point
 is:
 
 ```bash
@@ -60,8 +60,8 @@ python scripts/run_holdout.py
 ```
 
 Some experiments are computationally expensive. Keep regenerated full outputs
-outside normal Git history and verify them against the documented protocol and
-hash files before replacing a frozen result.
+outside normal Git history and verify them against the documented experiment configuration and
+hash files before replacing a recorded result.
 
 ## External ray-tracing holdout
 
@@ -78,7 +78,7 @@ python scripts/prepare_rmdirectional_dataset.py <path-to-RMBerlinDirectional.zip
 python scripts/run_rmdirectional_external_audit.py <path-to-RMBerlinDirectional.zip> --sample-limit 200 --histories-per-sample 8 --thresholds-db -115 -105 -95 --output runs/rmdirectional_external_audit_200.json
 ```
 
-The independent 224-tile holdout uses the frozen sample list and file hashes in
+The independent 224-tile holdout uses the documented sample list and file hashes in
 `experiments/runs/rmdirectional_external_holdout_protocol_v1.json`.
 
 ## Scope and interpretation
@@ -92,7 +92,5 @@ not a formal safety certificate for arbitrary urban propagation.
 
 ## License
 
-Python source code is released under the MIT License. Original figures,
-results, protocols, documentation, and the manuscript source are released
-under CC BY 4.0. See `LICENSE_SCOPE.md` for the exact scope and third-party
+Python source code is released under the MIT License. Original figures, results, documented experiment configurations, and documentation are released under CC BY 4.0. See `LICENSE_SCOPE.md` for the exact scope and third-party
 exclusions.

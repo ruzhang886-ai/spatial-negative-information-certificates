@@ -47,7 +47,7 @@ python experiments/run_checks.py
 
 This command executes the deterministic unit tests. Before packaging, the
 authors separately checked the manuscript reference order, abstract sample
-claims, and all entries of Tables 1--8 against the frozen result files.
+claims, and all entries of Tables 1--8 against the recorded result files.
 
 ## Re-running experiments
 

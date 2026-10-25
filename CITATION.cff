@@ -3,6 +3,10 @@ message: "If you use this software or data package, please cite the archived rel
 title: "Reproducibility package for spatially redundant negative-information certificates"
 type: software
 version: 1.0.0
+doi: "10.5281/zenodo.23552052"
+date-released: 2026-10-22
+repository-code: "https://github.com/ruzhang886-ai/spatial-negative-information-certificates"
+url: "https://doi.org/10.5281/zenodo.23552052"
 license: MIT
 abstract: "Code, documented experiment configurations, aggregate results, and figures supporting a study of spatially redundant negative-information certificates for directional radio-emitter localization under bounded persistent missed detections."
 authors:

@@ -1,4 +1,6 @@
-# Spatially Redundant Negative-Information Certificates
+Spatially Redundant Negative-Information Certificates
+
+[![DOI](https://zenodo.org/badge/1426749375.svg)](https://doi.org/10.5281/zenodo.23552051)
 
 This repository is the reproducibility package for the manuscript **Spatially
 Redundant Negative-Information Certificates for Directional Radio-Emitter
@@ -10,6 +12,13 @@ emitter. It compares a two-point negative-information rule with spatially
 redundant probes under bounded persistent missed detections, correlated
 shadowing, nonideal antenna gain, and an external Berlin ray-tracing holdout.
 
+## Public archives
+
+- GitHub repository: <https://github.com/ruzhang886-ai/spatial-negative-information-certificates>
+- Software version 1.0.0: <https://doi.org/10.5281/zenodo.23552052>
+- All software versions: <https://doi.org/10.5281/zenodo.23552051>
+- Complete raw results, version 1.0.0: <https://doi.org/10.5281/zenodo.23555273>
+
 ## Contents
 
 - `experiments/src`: geometry, certificate, policy, simulator, and external-data adapters.
@@ -18,12 +27,11 @@ shadowing, nonideal antenna gain, and an external Berlin ray-tracing holdout.
 - `experiments/runs`: compact aggregate results, documented experiment configurations, and hash manifests.
 - `figures`: manuscript figures in PNG and PDF.
 - `CITATION.cff`: author and citation metadata.
-- `.zenodo.json`: metadata used when Zenodo archives a GitHub release.
 - `LICENSE` and `LICENSE_SCOPE.md`: code and non-code license terms.
 
 Compact result files omit the per-run arrays but preserve the metadata and
-aggregate summaries used by Tables 1--8. The full raw outputs are intended for
-the separate release asset `Full_Raw_Results_v1.0.0.zip`;
+aggregate summaries used by Tables 1--8. The complete raw outputs are archived
+as a separate Zenodo dataset at <https://doi.org/10.5281/zenodo.23555273>;
 `experiments/runs/raw_results_sha256.tsv` records the expected size and SHA-256
 of every recorded local result file. `SHA256SUMS.txt` verifies the files stored in
 this repository snapshot.
@@ -60,7 +68,7 @@ python scripts/run_holdout.py
 ```
 
 Some experiments are computationally expensive. Keep regenerated full outputs
-outside normal Git history and verify them against the documented experiment configuration and
+outside normal Git history and verify them against the documented protocol and
 hash files before replacing a recorded result.
 
 ## External ray-tracing holdout
@@ -92,5 +100,7 @@ not a formal safety certificate for arbitrary urban propagation.
 
 ## License
 
-Python source code is released under the MIT License. Original figures, results, documented experiment configurations, and documentation are released under CC BY 4.0. See `LICENSE_SCOPE.md` for the exact scope and third-party
+Python source code is released under the MIT License. Original figures,
+results, protocols, documentation, and the manuscript source are released
+under CC BY 4.0. See `LICENSE_SCOPE.md` for the exact scope and third-party
 exclusions.
